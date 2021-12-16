@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(2.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* phù hợp vùng chứa img or video */
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: rgb(206, 70, 46);
+}
+
+
+/* Menu */
+
+.header {
+    width: 1262px;
+    height: 55px;
+    margin: auto;
+    position: fixed;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo a {
+    color: crimson;
+    font-size: 3.5rem;
+    font-family: Arial;
+    float: left;
+    padding-top: 14px;
+    padding-left: 50px;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 1.6rem;
+}
+
+ul li a {
+    font-family: Arial;
+    font-weight: bolder;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(206, 70, 46);
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(206, 70, 46);
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(206, 70, 46);
+    border: 2px solid rgb(206, 70, 46);
+    margin-top: 13px;
+    color: white;
+    font-size: 1.6rem;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+/* End Menu */
+
+
+/* Content */
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 200px 80px;
+    justify-content: flex-start;
+}
+
+.content h1 {
+    font-size: 5.5rem;
+}
+
+.content h1 span {
+    font-size: 7rem;
+}
+
+.content p {
+    padding-top: 15px;
+    font-size: 1.6rem;
+}
+
+.cn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid rgb(206, 70, 46);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    border-radius: 10px;
+}
+
+.cn a {
+    color: white;
+}
+
+.cn:hover {
+    background-color: rgb(206, 70, 46);
+}
+
+.content .menudki {
+    display: flex;
+}
+
+
+/* end content */
+
+.form {
+    width: 250px;
+    height: 380px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(70, 25, 34);
+    font-size: 2.2rem;
+    background-color: rgb(198, 174, 170);
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(206, 70, 46);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.form .btnn {
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(206, 70, 46);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 5px;
+    border: none;
+}
+
+.form .btnn a {
+    color: black;
+}
+
+.form .btnn:hover {
+    background-color: rgb(198, 174, 170);
+    font-weight: bold;
+    color: crimson;
+}
+
+.form .link {
+    text-align: center;
+}
+
+.form .link a {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form .liw {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(147, 139, 139);
+}
+
+.form .icons {
+    width: 240px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.form .icons img {
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    filter: grayscale(1);
+}
+
+.form .icon:hover img {
+    filter: grayscale(0);
+}
+
+
+/* end form1 */
+
+
+/* form 2 */
+
+.form1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.form2 {
+    position: unset;
+}
+
+.form3 {
+    display: flex;
+}
+
+
+/* end form2 */
+
+
+/* End Content */
